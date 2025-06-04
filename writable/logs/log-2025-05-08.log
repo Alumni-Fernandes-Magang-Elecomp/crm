@@ -1,0 +1,528 @@
+INFO - 2025-05-08 02:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:36:21 --> CSRF token verified.
+INFO - 2025-05-08 02:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:40:46 --> CSRF token verified.
+INFO - 2025-05-08 02:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 02:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-08 02:48:13 --> Undefined variable $penyelenggara
+in APPPATH\Views\admin\pelatihan\tambah.php on line 81.
+ 1 APPPATH\Views\admin\pelatihan\tambah.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penyelenggara', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\pelatihan\\tambah.php', 81)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\pelatihan\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/pelatihan/tambah', [], true)
+ 5 APPPATH\Controllers\admin\Pelatihancrl.php(42): view('admin/pelatihan/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Pelatihancrl->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pelatihancrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+ERROR - 2025-05-08 03:37:05 --> mysqli_sql_exception: Unknown column 'penyelenggara1.nama_penyelenggara' in 'field list' in C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_pela...', 0)
+#1 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_pela...')
+#2 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_pela...')
+#3 C:\xampp\htdocs\crm\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_pela...', Array, false)
+#4 C:\xampp\htdocs\crm\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crm\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\crm\app\Models\PelatihanModel.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\crm\app\Controllers\admin\Pelatihancrl.php(30): App\Models\PelatihanModel->getPelatihanWithRelations()
+#8 C:\xampp\htdocs\crm\system\CodeIgniter.php(932): App\Controllers\admin\Pelatihancrl->index()
+#9 C:\xampp\htdocs\crm\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pelatihancrl))
+#10 C:\xampp\htdocs\crm\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crm\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-05-08 03:37:05 --> Unknown column 'penyelenggara1.nama_penyelenggara' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_pelatihan`.*, `tb_materi`.`nama_materi`, `tb_kota`.`nama_kota`, `tb_provinsi`.`nama_provinsi`, `penyelenggara1`.`nama_penyelenggara` as `penyelenggara_1`, `penyelenggara2`.`nama_penyelenggara` as `penyelenggara_2`, `penyelenggara3`.`nama_penyelenggara` as `penyelenggara_3`
+FROM `tb_pelatihan`
+JOIN `tb_materi` ON `tb_materi`.`id_materi` = `tb_pelatihan`.`id_materi`
+JOIN `tb_kota` ON `tb_kota`.`id_kota` = `tb_pelatihan`.`id_kota`
+JOIN `tb_provinsi` ON `tb_provinsi`.`id_provinsi` = `tb_kota`.`id_provinsi`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara1` ON `penyelenggara1`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_1`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara2` ON `penyelenggara2`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_2`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara3` ON `penyelenggara3`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_3`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_pelatihan`.*, `tb_materi`.`nama_materi`, `tb_kota`.`nama_kota`, `tb_provinsi`.`nama_provinsi`, `penyelenggara1`.`nama_penyelenggara` as `penyelenggara_1`, `penyelenggara2`.`nama_penyelenggara` as `penyelenggara_2`, `penyelenggara3`.`nama_penyelenggara` as `penyelenggara_3`
+FROM `tb_pelatihan`
+JOIN `tb_materi` ON `tb_materi`.`id_materi` = `tb_pelatihan`.`id_materi`
+JOIN `tb_kota` ON `tb_kota`.`id_kota` = `tb_pelatihan`.`id_kota`
+JOIN `tb_provinsi` ON `tb_provinsi`.`id_provinsi` = `tb_kota`.`id_provinsi`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara1` ON `penyelenggara1`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_1`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara2` ON `penyelenggara2`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_2`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara3` ON `penyelenggara3`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_3`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_pelatihan`.*, `tb_materi`.`nama_materi`, `tb_kota`.`nama_kota`, `tb_provinsi`.`nama_provinsi`, `penyelenggara1`.`nama_penyelenggara` as `penyelenggara_1`, `penyelenggara2`.`nama_penyelenggara` as `penyelenggara_2`, `penyelenggara3`.`nama_penyelenggara` as `penyelenggara_3`
+FROM `tb_pelatihan`
+JOIN `tb_materi` ON `tb_materi`.`id_materi` = `tb_pelatihan`.`id_materi`
+JOIN `tb_kota` ON `tb_kota`.`id_kota` = `tb_pelatihan`.`id_kota`
+JOIN `tb_provinsi` ON `tb_provinsi`.`id_provinsi` = `tb_kota`.`id_provinsi`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara1` ON `penyelenggara1`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_1`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara2` ON `penyelenggara2`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_2`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara3` ON `penyelenggara3`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_3`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_pelatihan`.*, `tb_materi`.`nama_materi`, `tb_kota`.`nama_kota`, `tb_provinsi`.`nama_provinsi`, `penyelenggara1`.`nama_penyelenggara` as `penyelenggara_1`, `penyelenggara2`.`nama_penyelenggara` as `penyelenggara_2`, `penyelenggara3`.`nama_penyelenggara` as `penyelenggara_3`
+FROM `tb_pelatihan`
+JOIN `tb_materi` ON `tb_materi`.`id_materi` = `tb_pelatihan`.`id_materi`
+JOIN `tb_kota` ON `tb_kota`.`id_kota` = `tb_pelatihan`.`id_kota`
+JOIN `tb_provinsi` ON `tb_provinsi`.`id_provinsi` = `tb_kota`.`id_provinsi`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara1` ON `penyelenggara1`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_1`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara2` ON `penyelenggara2`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_2`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara3` ON `penyelenggara3`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_3`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PelatihanModel.php(39): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\admin\Pelatihancrl.php(30): App\Models\PelatihanModel->getPelatihanWithRelations()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Pelatihancrl->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pelatihancrl))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2025-05-08 03:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-08 03:37:10 --> mysqli_sql_exception: Unknown column 'penyelenggara1.nama_penyelenggara' in 'field list' in C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_pela...', 0)
+#1 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_pela...')
+#2 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_pela...')
+#3 C:\xampp\htdocs\crm\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_pela...', Array, false)
+#4 C:\xampp\htdocs\crm\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crm\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\crm\app\Models\PelatihanModel.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\crm\app\Controllers\admin\Pelatihancrl.php(30): App\Models\PelatihanModel->getPelatihanWithRelations()
+#8 C:\xampp\htdocs\crm\system\CodeIgniter.php(932): App\Controllers\admin\Pelatihancrl->index()
+#9 C:\xampp\htdocs\crm\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pelatihancrl))
+#10 C:\xampp\htdocs\crm\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crm\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-05-08 03:37:10 --> Unknown column 'penyelenggara1.nama_penyelenggara' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_pelatihan`.*, `tb_materi`.`nama_materi`, `tb_kota`.`nama_kota`, `tb_provinsi`.`nama_provinsi`, `penyelenggara1`.`nama_penyelenggara` as `penyelenggara_1`, `penyelenggara2`.`nama_penyelenggara` as `penyelenggara_2`, `penyelenggara3`.`nama_penyelenggara` as `penyelenggara_3`
+FROM `tb_pelatihan`
+JOIN `tb_materi` ON `tb_materi`.`id_materi` = `tb_pelatihan`.`id_materi`
+JOIN `tb_kota` ON `tb_kota`.`id_kota` = `tb_pelatihan`.`id_kota`
+JOIN `tb_provinsi` ON `tb_provinsi`.`id_provinsi` = `tb_kota`.`id_provinsi`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara1` ON `penyelenggara1`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_1`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara2` ON `penyelenggara2`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_2`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara3` ON `penyelenggara3`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_3`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_pelatihan`.*, `tb_materi`.`nama_materi`, `tb_kota`.`nama_kota`, `tb_provinsi`.`nama_provinsi`, `penyelenggara1`.`nama_penyelenggara` as `penyelenggara_1`, `penyelenggara2`.`nama_penyelenggara` as `penyelenggara_2`, `penyelenggara3`.`nama_penyelenggara` as `penyelenggara_3`
+FROM `tb_pelatihan`
+JOIN `tb_materi` ON `tb_materi`.`id_materi` = `tb_pelatihan`.`id_materi`
+JOIN `tb_kota` ON `tb_kota`.`id_kota` = `tb_pelatihan`.`id_kota`
+JOIN `tb_provinsi` ON `tb_provinsi`.`id_provinsi` = `tb_kota`.`id_provinsi`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara1` ON `penyelenggara1`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_1`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara2` ON `penyelenggara2`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_2`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara3` ON `penyelenggara3`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_3`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_pelatihan`.*, `tb_materi`.`nama_materi`, `tb_kota`.`nama_kota`, `tb_provinsi`.`nama_provinsi`, `penyelenggara1`.`nama_penyelenggara` as `penyelenggara_1`, `penyelenggara2`.`nama_penyelenggara` as `penyelenggara_2`, `penyelenggara3`.`nama_penyelenggara` as `penyelenggara_3`
+FROM `tb_pelatihan`
+JOIN `tb_materi` ON `tb_materi`.`id_materi` = `tb_pelatihan`.`id_materi`
+JOIN `tb_kota` ON `tb_kota`.`id_kota` = `tb_pelatihan`.`id_kota`
+JOIN `tb_provinsi` ON `tb_provinsi`.`id_provinsi` = `tb_kota`.`id_provinsi`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara1` ON `penyelenggara1`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_1`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara2` ON `penyelenggara2`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_2`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara3` ON `penyelenggara3`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_3`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_pelatihan`.*, `tb_materi`.`nama_materi`, `tb_kota`.`nama_kota`, `tb_provinsi`.`nama_provinsi`, `penyelenggara1`.`nama_penyelenggara` as `penyelenggara_1`, `penyelenggara2`.`nama_penyelenggara` as `penyelenggara_2`, `penyelenggara3`.`nama_penyelenggara` as `penyelenggara_3`
+FROM `tb_pelatihan`
+JOIN `tb_materi` ON `tb_materi`.`id_materi` = `tb_pelatihan`.`id_materi`
+JOIN `tb_kota` ON `tb_kota`.`id_kota` = `tb_pelatihan`.`id_kota`
+JOIN `tb_provinsi` ON `tb_provinsi`.`id_provinsi` = `tb_kota`.`id_provinsi`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara1` ON `penyelenggara1`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_1`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara2` ON `penyelenggara2`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_2`
+LEFT JOIN `tb_penyelenggara` as `penyelenggara3` ON `penyelenggara3`.`id_penyelenggara` = `tb_pelatihan`.`id_penyelenggara_3`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PelatihanModel.php(39): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\admin\Pelatihancrl.php(30): App\Models\PelatihanModel->getPelatihanWithRelations()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Pelatihancrl->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pelatihancrl))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2025-05-08 03:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 03:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-08 03:41:41 --> Undefined array key "nama_penyelenggara"
+in APPPATH\Views\admin\pelatihan\tambah.php on line 84.
+ 1 APPPATH\Views\admin\pelatihan\tambah.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_penyelenggara"', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\pelatihan\\tambah.php', 84)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\pelatihan\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/pelatihan/tambah', [], true)
+ 5 APPPATH\Controllers\admin\Pelatihancrl.php(46): view('admin/pelatihan/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Pelatihancrl->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pelatihancrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2025-05-08 03:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 03:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 03:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 03:46:32 --> CSRF token verified.
+INFO - 2025-05-08 03:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 03:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-08 03:46:32 --> Undefined array key "penyelenggara"
+in APPPATH\Views\admin\pelatihan\index.php on line 39.
+ 1 APPPATH\Views\admin\pelatihan\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "penyelenggara"', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\pelatihan\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\pelatihan\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/pelatihan/index', [], true)
+ 5 APPPATH\Controllers\admin\Pelatihancrl.php(33): view('admin/pelatihan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Pelatihancrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pelatihancrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2025-05-08 03:47:01 --> CSRF token verified.
+INFO - 2025-05-08 03:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 03:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-08 03:47:02 --> Undefined array key "penyelenggara"
+in APPPATH\Views\admin\pelatihan\index.php on line 39.
+ 1 APPPATH\Views\admin\pelatihan\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "penyelenggara"', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\pelatihan\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\pelatihan\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/pelatihan/index', [], true)
+ 5 APPPATH\Controllers\admin\Pelatihancrl.php(33): view('admin/pelatihan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Pelatihancrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pelatihancrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2025-05-08 03:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-08 03:58:38 --> Undefined array key "penyelenggara"
+in APPPATH\Views\admin\pelatihan\index.php on line 39.
+ 1 APPPATH\Views\admin\pelatihan\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "penyelenggara"', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\pelatihan\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\pelatihan\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/pelatihan/index', [], true)
+ 5 APPPATH\Controllers\admin\Pelatihancrl.php(33): view('admin/pelatihan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Pelatihancrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pelatihancrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2025-05-08 03:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 03:58:45 --> CSRF token verified.
+INFO - 2025-05-08 03:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 03:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-08 03:58:45 --> Undefined array key "penyelenggara"
+in APPPATH\Views\admin\pelatihan\index.php on line 39.
+ 1 APPPATH\Views\admin\pelatihan\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "penyelenggara"', 'C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\pelatihan\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\crm\\app\\Views\\admin\\pelatihan\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/pelatihan/index', [], true)
+ 5 APPPATH\Controllers\admin\Pelatihancrl.php(33): view('admin/pelatihan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Pelatihancrl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pelatihancrl))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2025-05-08 04:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:04:09 --> CSRF token verified.
+INFO - 2025-05-08 04:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:23:03 --> CSRF token verified.
+INFO - 2025-05-08 04:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:23:22 --> CSRF token verified.
+INFO - 2025-05-08 04:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:24:06 --> CSRF token verified.
+INFO - 2025-05-08 04:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:25:29 --> CSRF token verified.
+INFO - 2025-05-08 04:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:53:39 --> CSRF token verified.
+INFO - 2025-05-08 04:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 04:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:06:47 --> CSRF token verified.
+INFO - 2025-05-08 05:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:08:17 --> CSRF token verified.
+INFO - 2025-05-08 05:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:17:06 --> CSRF token verified.
+INFO - 2025-05-08 05:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:22:32 --> CSRF token verified.
+INFO - 2025-05-08 05:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:57:49 --> CSRF token verified.
+INFO - 2025-05-08 05:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:58:18 --> CSRF token verified.
+INFO - 2025-05-08 05:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-08 05:58:18 --> Error: Gagal menyimpan data tugas
+INFO - 2025-05-08 05:58:24 --> CSRF token verified.
+INFO - 2025-05-08 05:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-08 05:58:24 --> Error: Gagal menyimpan data tugas
+INFO - 2025-05-08 05:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:58:53 --> CSRF token verified.
+INFO - 2025-05-08 05:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-08 05:58:53 --> Error: Gagal menyimpan data tugas
+INFO - 2025-05-08 05:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 05:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:01:20 --> CSRF token verified.
+INFO - 2025-05-08 06:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:14 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:17 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:20 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:22 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:24 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:48 --> CSRF token verified.
+INFO - 2025-05-08 06:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:51 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:20:01 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:34:46 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:34:49 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:38:03 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:17 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:19 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:35 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:47 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:50 --> Checking login for User ID: NULL
+INFO - 2025-05-08 06:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 06:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:00:24 --> CSRF token verified.
+INFO - 2025-05-08 07:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:07:18 --> CSRF token verified.
+INFO - 2025-05-08 07:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:09:15 --> CSRF token verified.
+INFO - 2025-05-08 07:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:10:06 --> CSRF token verified.
+INFO - 2025-05-08 07:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:17:10 --> CSRF token verified.
+INFO - 2025-05-08 07:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:35:47 --> CSRF token verified.
+INFO - 2025-05-08 07:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:38:05 --> CSRF token verified.
+INFO - 2025-05-08 07:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 07:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 08:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 08:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 08:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 08:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 08:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 08:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 08:28:53 --> CSRF token verified.
+INFO - 2025-05-08 08:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 08:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 08:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 08:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-08 08:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,287 @@
+INFO - 2025-05-02 03:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 03:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 03:32:14 --> CSRF token verified.
+INFO - 2025-05-02 03:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 03:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-02 03:32:21 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Models\UserModel.php on line 47.
+ 1 APPPATH\Models\UserModel.php(47): explode(',', null)
+ 2 APPPATH\Controllers\user\Homectrl.php(52): App\Models\UserModel->getMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+INFO - 2025-05-02 03:32:22 --> CSRF token verified.
+INFO - 2025-05-02 03:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 03:32:23 --> CSRF token verified.
+INFO - 2025-05-02 03:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 03:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-02 03:32:24 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Models\UserModel.php on line 47.
+ 1 APPPATH\Models\UserModel.php(47): explode(',', null)
+ 2 APPPATH\Controllers\user\Homectrl.php(52): App\Models\UserModel->getMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+INFO - 2025-05-02 03:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-02 03:36:00 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Models\UserModel.php on line 47.
+ 1 APPPATH\Models\UserModel.php(47): explode(',', null)
+ 2 APPPATH\Controllers\user\Homectrl.php(52): App\Models\UserModel->getMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+INFO - 2025-05-02 03:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-02 03:36:05 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Models\UserModel.php on line 47.
+ 1 APPPATH\Models\UserModel.php(47): explode(',', null)
+ 2 APPPATH\Controllers\user\Homectrl.php(52): App\Models\UserModel->getMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+INFO - 2025-05-02 03:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-02 03:37:04 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Models\UserModel.php on line 47.
+ 1 APPPATH\Models\UserModel.php(47): explode(',', null)
+ 2 APPPATH\Controllers\user\Homectrl.php(52): App\Models\UserModel->getMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+INFO - 2025-05-02 03:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-02 03:37:10 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Models\UserModel.php on line 47.
+ 1 APPPATH\Models\UserModel.php(47): explode(',', null)
+ 2 APPPATH\Controllers\user\Homectrl.php(52): App\Models\UserModel->getMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+CRITICAL - 2025-05-02 03:38:19 --> Undefined array key "kategori_voucher"
+in APPPATH\Controllers\user\VoucherController.php on line 24.
+ 1 APPPATH\Controllers\user\VoucherController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori_voucher"', 'D:\\magang\\crm\\app\\Controllers\\user\\VoucherController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\VoucherController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\VoucherController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+ERROR - 2025-05-02 03:41:27 --> mysqli_sql_exception: Unknown table 'db_compro.tb_voucher' in D:\magang\crm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\magang\crm\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `tb_...', 0)
+#1 D:\magang\crm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `tb_...')
+#2 D:\magang\crm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `tb_...')
+#3 D:\magang\crm\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `tb_...')
+#4 D:\magang\crm\app\Database\Migrations\2025-04-29-164002_CreateVoucher.php(28): CodeIgniter\Database\Forge->dropTable('tb_voucher')
+#5 D:\magang\crm\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateVoucher->down()
+#6 D:\magang\crm\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\magang\crm\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(2)
+#8 D:\magang\crm\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\magang\crm\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\magang\crm\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2025-05-02 03:47:30 --> mysqli_sql_exception: Unknown table 'db_compro.tb_voucher' in D:\magang\crm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\magang\crm\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `tb_...', 0)
+#1 D:\magang\crm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `tb_...')
+#2 D:\magang\crm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `tb_...')
+#3 D:\magang\crm\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `tb_...')
+#4 D:\magang\crm\app\Database\Migrations\2025-04-29-164002_CreateVoucher.php(28): CodeIgniter\Database\Forge->dropTable('tb_voucher')
+#5 D:\magang\crm\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateVoucher->down()
+#6 D:\magang\crm\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\magang\crm\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(2)
+#8 D:\magang\crm\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\magang\crm\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\magang\crm\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2025-05-02 03:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 03:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 03:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 03:55:19 --> CSRF token verified.
+INFO - 2025-05-02 03:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 03:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 03:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 03:55:21 --> CSRF token verified.
+INFO - 2025-05-02 03:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 03:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 03:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 03:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 04:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 04:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 04:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 04:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 04:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 04:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-02 04:09:41 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\admin/VoucherController::index"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\admin/VoucherController::index')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('admin/voucher/index')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('admin/voucher/index')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+CRITICAL - 2025-05-02 04:10:03 --> Undefined variable $kategoriOptions
+in APPPATH\Views\admin\voucher\index.php on line 32.
+ 1 APPPATH\Views\admin\voucher\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoriOptions', 'D:\\magang\\crm\\app\\Views\\admin\\voucher\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\magang\\crm\\app\\Views\\admin\\voucher\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/voucher/index', [], true)
+ 5 APPPATH\Controllers\admin\VoucherController.php(25): view('admin/voucher/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\VoucherController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\VoucherController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+CRITICAL - 2025-05-02 04:35:14 --> Undefined variable $kategoriOptions
+in APPPATH\Views\admin\voucher\index.php on line 32.
+ 1 APPPATH\Views\admin\voucher\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoriOptions', 'D:\\magang\\crm\\app\\Views\\admin\\voucher\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\magang\\crm\\app\\Views\\admin\\voucher\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/voucher/index', [], true)
+ 5 APPPATH\Controllers\admin\VoucherController.php(25): view('admin/voucher/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\VoucherController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\VoucherController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+INFO - 2025-05-02 04:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 04:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-02 04:35:23 --> Undefined variable $kategoriOptions
+in APPPATH\Views\admin\voucher\index.php on line 32.
+ 1 APPPATH\Views\admin\voucher\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoriOptions', 'D:\\magang\\crm\\app\\Views\\admin\\voucher\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\magang\\crm\\app\\Views\\admin\\voucher\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/voucher/index', [], true)
+ 5 APPPATH\Controllers\admin\VoucherController.php(25): view('admin/voucher/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\VoucherController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\VoucherController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+CRITICAL - 2025-05-02 04:37:11 --> Undefined variable $kategoriOptions
+in APPPATH\Views\admin\voucher\index.php on line 32.
+ 1 APPPATH\Views\admin\voucher\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategoriOptions', 'D:\\magang\\crm\\app\\Views\\admin\\voucher\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\magang\\crm\\app\\Views\\admin\\voucher\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/voucher/index', [], true)
+ 5 APPPATH\Controllers\admin\VoucherController.php(25): view('admin/voucher/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\VoucherController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\VoucherController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+INFO - 2025-05-02 04:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 06:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-02 06:50:26 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('admin/voucher/proses_tambah', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+INFO - 2025-05-02 06:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:21:53 --> CSRF token verified.
+INFO - 2025-05-02 07:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:22:23 --> CSRF token verified.
+INFO - 2025-05-02 07:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-02 07:22:23 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Models\UserModel.php on line 47.
+ 1 APPPATH\Models\UserModel.php(47): explode(',', null)
+ 2 APPPATH\Controllers\user\Homectrl.php(52): App\Models\UserModel->getMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+INFO - 2025-05-02 07:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:23:08 --> CSRF token verified.
+INFO - 2025-05-02 07:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:24:29 --> CSRF token verified.
+INFO - 2025-05-02 07:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:24:53 --> CSRF token verified.
+INFO - 2025-05-02 07:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-02 07:24:54 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Models\UserModel.php on line 47.
+ 1 APPPATH\Models\UserModel.php(47): explode(',', null)
+ 2 APPPATH\Controllers\user\Homectrl.php(52): App\Models\UserModel->getMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Homectrl->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Homectrl))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+INFO - 2025-05-02 07:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-02 07:32:45 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Models\UserModel.php on line 47.
+ 1 APPPATH\Models\UserModel.php(47): explode(',', null)
+ 2 APPPATH\Controllers\user\Promoctrl.php(34): App\Models\UserModel->getMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Promoctrl->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Promoctrl))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+INFO - 2025-05-02 07:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-02 07:32:50 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Models\UserModel.php on line 47.
+ 1 APPPATH\Models\UserModel.php(47): explode(',', null)
+ 2 APPPATH\Controllers\user\Promoctrl.php(34): App\Models\UserModel->getMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\user\Promoctrl->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Promoctrl))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+INFO - 2025-05-02 07:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:36:35 --> CSRF token verified.
+INFO - 2025-05-02 07:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 07:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-02 07:39:29 --> Attempt to read property "id_user" on null
+in APPPATH\Views\admin\user\edit.php on line 12.
+ 1 APPPATH\Views\admin\user\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on null', 'D:\\magang\\crm\\app\\Views\\admin\\user\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\magang\\crm\\app\\Views\\admin\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user/edit', [], true)
+ 5 APPPATH\Controllers\admin\User.php(111): view('admin/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\User->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\crm\\public\\index.php')
+INFO - 2025-05-02 07:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 08:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 08:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 08:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-02 11:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

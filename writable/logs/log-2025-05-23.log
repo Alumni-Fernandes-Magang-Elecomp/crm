@@ -1,0 +1,59 @@
+INFO - 2025-05-23 03:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-23 03:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-23 03:24:49 --> CSRF token verified.
+INFO - 2025-05-23 03:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-23 03:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-23 03:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-23 03:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-23 03:25:44 --> CSRF token verified.
+INFO - 2025-05-23 03:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-23 03:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-23 03:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-23 03:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-23 03:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-23 03:25:56 --> mysqli_sql_exception: Unknown column 'tb_tugas.id_user' in 'on clause' in C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crm\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tuga...', 0)
+#1 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tuga...')
+#2 C:\xampp\htdocs\crm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tuga...')
+#3 C:\xampp\htdocs\crm\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tuga...', Array, false)
+#4 C:\xampp\htdocs\crm\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crm\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\crm\app\Controllers\admin\Tugasctrl.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\crm\system\CodeIgniter.php(932): App\Controllers\admin\Tugasctrl->index()
+#8 C:\xampp\htdocs\crm\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tugasctrl))
+#9 C:\xampp\htdocs\crm\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\crm\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\crm\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-05-23 03:25:56 --> Unknown column 'tb_tugas.id_user' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_tugas`.*, `tb_pelatihan`.`nama_pelatihan`, `tb_user`.`nama_user`
+FROM `tb_tugas`
+JOIN `tb_pelatihan` ON `tb_pelatihan`.`id_pelatihan` = `tb_tugas`.`id_pelatihan`
+JOIN `tb_user` ON `tb_user`.`id_user` = `tb_tugas`.`id_user`
+ORDER BY `tb_tugas`.`waktu_pengumpulan` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_tugas`.*, `tb_pelatihan`.`nama_pelatihan`, `tb_user`.`nama_user`
+FROM `tb_tugas`
+JOIN `tb_pelatihan` ON `tb_pelatihan`.`id_pelatihan` = `tb_tugas`.`id_pelatihan`
+JOIN `tb_user` ON `tb_user`.`id_user` = `tb_tugas`.`id_user`
+ORDER BY `tb_tugas`.`waktu_pengumpulan` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_tugas`.*, `tb_pelatihan`.`nama_pelatihan`, `tb_user`.`nama_user`
+FROM `tb_tugas`
+JOIN `tb_pelatihan` ON `tb_pelatihan`.`id_pelatihan` = `tb_tugas`.`id_pelatihan`
+JOIN `tb_user` ON `tb_user`.`id_user` = `tb_tugas`.`id_user`
+ORDER BY `tb_tugas`.`waktu_pengumpulan` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_tugas`.*, `tb_pelatihan`.`nama_pelatihan`, `tb_user`.`nama_user`
+FROM `tb_tugas`
+JOIN `tb_pelatihan` ON `tb_pelatihan`.`id_pelatihan` = `tb_tugas`.`id_pelatihan`
+JOIN `tb_user` ON `tb_user`.`id_user` = `tb_tugas`.`id_user`
+ORDER BY `tb_tugas`.`waktu_pengumpulan` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\admin\Tugasctrl.php(33): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin\Tugasctrl->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Tugasctrl))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crm\\public\\index.php')
+INFO - 2025-05-23 03:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
