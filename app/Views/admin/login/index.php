@@ -34,23 +34,25 @@
 						<div class="email mb-3">
 							<label class="sr-only" for="username">Username</label>
 							<input id="username" name="username" type="text" class="form-control username" placeholder="username" required="required">
-						</div><!--//form-group-->
+						</div>
 						<div class="password mb-3">
 							<label class="sr-only" for="password">Password</label>
 							<input id="password" name="password" type="password" class="form-control password" placeholder="password" required="required">
-						</div><!--//form-group-->
+						</div>
 						<div class="text-center">
 							<button type="submit" class="btn app-btn-primary w-100 theme-btn mx-auto">Log In</button>
 						</div>
 					</form>
-				</div><!--//auth-form-container-->
 
+					<div class="auth-option text-center pt-3">
+						Belum punya akun? <a class="text-link" href="<?= base_url('register') ?>">Daftar disini</a>
+					</div>
+				</div><!--//auth-form-container-->
 			</div><!--//auth-body-->
 		</div><!--//flex-column-->
 	</div><!--//auth-main-col-->
 	<div class="col-12 col-md-5 col-lg-6 h-100 auth-background-col">
-		<div class="auth-background-holder">
-		</div>
+		<div class="auth-background-holder"></div>
 		<div class="auth-background-mask"></div>
 		<div class="auth-background-overlay p-3 p-lg-5">
 			<div class="d-flex flex-column align-content-end h-100">
