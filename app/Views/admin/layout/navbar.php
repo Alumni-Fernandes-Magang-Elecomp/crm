@@ -36,8 +36,7 @@
                     </a>
                 </li>
 
-                <li class="nav-item">
-                    <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="<?= base_url('admin/kategori/index') ?>">
                         <span class="nav-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
@@ -45,11 +44,10 @@
                             </svg>
                         </span>
                         <span class="nav-link-text">Kategori</span>
-                    </a><!--//nav-link-->
-                </li><!--//nav-item-->
+                    </a>
+                </li> -->
 
-                <li class="nav-item">
-                    <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="<?= base_url('admin/artikel/index') ?>">
                         <span class="nav-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-image" viewBox="0 0 16 16">
@@ -58,8 +56,8 @@
                             </svg>
                         </span>
                         <span class="nav-link-text">Artikel</span>
-                    </a><!--//nav-link-->
-                </li><!--//nav-item-->
+                    </a>
+                </li> -->
 
                 <li class="nav-item">
                     <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
@@ -73,8 +71,7 @@
                     </a><!--//nav-link-->
                 </li><!--//nav-item-->
 
-                <li class="nav-item">
-                    <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="<?= base_url('admin/panduan/index') ?>">
                         <span class="nav-icon">
                             <svg width="16" height="16" fill="currentColor" class="fas fa-book bi bi-activity" viewBox="0 0 16 16">
@@ -82,11 +79,10 @@
                             </svg>
                         </span>
                         <span class="nav-link-text">Panduan</span>
-                    </a><!--//nav-link-->
-                </li><!--//nav-item-->
+                    </a>
+                </li> -->
 
-                <li class="nav-item">
-                    <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="<?= base_url('admin/panduan_tambahan/index') ?>">
                         <span class="nav-icon">
                             <svg width="16" height="16" fill="currentColor" class="fas fa-book bi bi-activity" viewBox="0 0 16 16">
@@ -94,8 +90,8 @@
                             </svg>
                         </span>
                         <span class="nav-link-text">Panduan Tambahan</span>
-                    </a><!--//nav-link-->
-                </li><!--//nav-item-->
+                    </a>
+                </li> -->
 
                 <li class="nav-item">
                     <a class="nav-link" href="<?= base_url(session('role') === 'admin' ? 'admin/voucher/index' : 'voucher') ?>">
